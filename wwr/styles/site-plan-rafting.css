@@ -5,25 +5,26 @@ Fonts are separated by a | */
 @import url('https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,700;1,300&display=swap');
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #76cef3   ;
-  --secondary-color: #005e86 ;
-  --accent1-color: #10A967;
-  --accent2-color: #ffca18;
+  --primary-color: #EB9112   ;
+  --secondary-color: #D83460 ;
+  --accent1-color: #7B0467;
+  --accent2-color: #357d6d;
+  --accent3-color: #44B6AB;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Sarabun";
+  --heading-font: z"Sarabun";
   --paragraph-font: Sarabun, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #76cef3;  /* headlines on a white background */ 
+  --headline-color-on-white: #357d6d;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #fefeff; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: #7B0467 ; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #005e86  ;
-  --nav-link-color: #f7fffc;
-  --nav-background-color: #005e86;
-  --nav-hover-link-color: #ffca18;
-  --nav-hover-background-color: #10A967;
+  --paragraph-background-color: #7B0467 ;
+  --nav-link-color:white  ;
+  --nav-background-color: #357d6d ;
+  --nav-hover-link-color: #eB9112;
+  --nav-hover-background-color:#7B0467;
 }
 
 
@@ -74,7 +75,7 @@ p {
   text-align: center;
 }
 .colors th {
-  background-color: rgb(241, 252, 255);
+  background-color: #C4E9E6;
 }
 .colors td{
   width: 25%;
@@ -135,7 +136,7 @@ nav a:hover {
 }
 .sm-home {
   grid-area: home;
-  background-color: #ccc;
+  background-color: white;
   line-height: 3em;
 }
 .sm-page2 {
