@@ -80,10 +80,10 @@ nav a:hover{
 #background{
     background-color: #EB9112;
     color:white;
-    margin-top: 200px;
+    margin-top: 200px 0;
 }
 .mountains{
-    margin-top: 200px;
+    margin-top: 200px ;
 }
 .msg{
     background-color: #7B0467;
