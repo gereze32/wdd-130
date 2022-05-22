@@ -13,6 +13,7 @@
 #hero-msg h1, #hero-msg h4{
     text-align: center;
     font-family: 'Sen',Verdana, sans-serif
+    
 }
 .home-title{
     color:#357d6d;
@@ -79,6 +80,7 @@ nav a:hover{
 #background{
     background-color: #EB9112;
     color:white;
+    margin: 200px;
 }
 .msg{
     background-color: #7B0467;
