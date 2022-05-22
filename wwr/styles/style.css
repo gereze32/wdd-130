@@ -12,11 +12,11 @@
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
-    font-family: Sen,Verdana, sans-serif
+    font-family: 'Sen',Verdana, sans-serif
 }
 .home-title{
     color:#357d6d;
-    font-family: Courgette, Verdana, sans-serif;
+    font-family: 'Courgette', Verdana, sans-serif;
     font-size: 2em;
     margin-top: 10px;
 }
@@ -83,7 +83,7 @@ nav a:hover{
 .msg{
     background-color: #7B0467;
     color:white;
-    font-family: sen, Verdana, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Sen', Verdana, 'Arial Narrow Bold', sans-serif;
     line-height: 1.5em;
     padding: 35px;
 }
@@ -93,7 +93,7 @@ nav a:hover{
 }
 .msg h2{
     color:#EB9112;
-    font-family: sen,Verdana, 'Arial Narrow Bold', sans-serif;
+    font-family: 'sen',Verdana, 'Arial Narrow Bold', sans-serif;
 }
 
 footer{
