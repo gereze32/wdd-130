@@ -50,16 +50,8 @@ nav a:hover{
     text-decoration: underline;
 
 }
-.book{
-    background-color: #7B0467;
-    color:white;
-    text-decoration: none;
-    font-size: 18px;
-    padding: 15px 30px;
-    margin-top: 50px;
-    border-radius:5px;
-}
- .join{
+.book,.join{
+
     background-color:#357d6d;
     color: white;
     text-decoration: none;
@@ -69,13 +61,8 @@ nav a:hover{
     border-radius:5px;
 }
 
-.book:hover{
-    background-color: #D83460;
-
-} 
-.join:hover{
+.book:hover, .join:hover{
     background-color: #44B6AB;
-    
 }
 #background{
     background-color: #EB9112;
@@ -88,21 +75,23 @@ nav a:hover{
 .msg{
     background-color: #7B0467;
     color:white;
-    font-family: 'Sen', Verdana, 'Arial Narrow Bold', sans-serif;
+    font-family: Sen, Verdana, 'Arial Narrow Bold', sans-serif;
     line-height: 1em;
     padding: 35px;
     margin-top: 200px 0;
 }
 .msg p{
      padding-bottom: 15px;
+     font-size: 1.2em;
+     font-family: Sen;
 }
 .msg h2{
     color:#EB9112;
-    font-family: 'sen',Verdana, 'Arial Narrow Bold', sans-serif;
+    font-family: Sen,Verdana, 'Arial Narrow Bold', sans-serif;
 }
 
 footer{
-    background-color: #357d6d;
+    background-color:#274b44;
     color:#cbf1ee;
     padding: 25px 50px;
     margin-top: 200px;
@@ -146,12 +135,8 @@ h2 {
 .card-img{
     border: 10px solid #7B0467;
 }
-.rivers-card{
+.rivers-card,.camping-card,.rapids-card{
     margin: 200px 0;
+    text-align: center;
 }
-.camping-card{
-    margin: 200px 0;
-}
-.rapids-card{
-    margin: 200px 0;
-}
+
