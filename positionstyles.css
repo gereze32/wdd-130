@@ -109,7 +109,7 @@ grid-gap:20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  height: 400px;
+  height: 640px;
 }
 .red4 {
   width: 100%; 
@@ -166,7 +166,8 @@ grid-gap:20px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-  height: 400px;
+  height: 622.3px;
+  width: 622.3px;
 }
 .red6 {
   width: 100%; 
