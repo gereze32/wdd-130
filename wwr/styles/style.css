@@ -71,6 +71,7 @@ header{
 nav{
     display: flex;
     justify-content: space-around;
+    opacity: ;
 }
 nav a:hover{
     background-color:#7B0467;
@@ -186,6 +187,7 @@ h2 {
 .home-grid{
     display: grid;
     grid-template-columns: repeat(10,1fr);
+    grid-template-rows: auto;
 }
 
 .rivers-card {
