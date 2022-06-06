@@ -177,5 +177,34 @@ h2 {
 .home-grid{
     display: grid;
     grid-template-columns: repeat(10,1fr);
-    grid-template-rows: repeat(9);
 }
+
+.rivers-card {
+    grid-template-columns: 2/4;
+    grid-template-rows: 2/3;
+}
+
+.camping-card {
+    grid-template-columns: 5/7;
+    grid-template-rows:2/3;
+} 
+
+.rapids-card {
+    grid-template-columns: 8/10;
+    grid-template-rows: 2/3;
+}
+
+#background {
+    grid-template-columns: 1/11;
+    grid-template-rows: 4/9;
+} 
+
+.mountains {
+    grid-template-columns: 2/7;
+    grid-template-rows: 5/8;
+}
+
+.msg {
+    grid-template-columns: 6/10;
+    grid-template-rows: 6/7;
+}  
