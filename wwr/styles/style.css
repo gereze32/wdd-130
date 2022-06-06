@@ -34,7 +34,7 @@
     text-align: center; 
 }
 .home-title{
-    color:#7B0467;
+    color:#44B6AB;
     font-size: 2em;
     margin-top: 10px;
     font-family: Courgette,'Sen',Verdana, sans-serif
@@ -63,15 +63,17 @@ body{
     padding: 0;
 }
 header{
-    background-color:  #357d6d;
-    color:white;
+    background-color:  #274b44;
+    color:#EB9112;
     display: grid;
     grid-template-columns: 150px auto;
+    opacity: 90%;
+    font-family: Sen;
 }
 nav{
     display: flex;
     justify-content: space-around;
-    opacity: 20%;
+   
 }
 nav a:hover{
     background-color:#7B0467;
@@ -81,7 +83,7 @@ nav a:hover{
 }
 .book,.join{
 
-    background-color:#357d6d;
+    background-color:#7B0467;
     color: white;
     text-decoration: none;
     font-size: 18px;
@@ -91,7 +93,7 @@ nav a:hover{
 }
 
 .book:hover, .join:hover{
-    background-color: #44B6AB;
+    background-color: #EB9112;
 }
 #background{
     background-color: #EB9112;
@@ -129,6 +131,7 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-family: Sen;
 }
 footer a{
     color:#EB9112;
@@ -169,7 +172,7 @@ h2 {
     align-self: center;
 }
 .card-img{
-    border: 10px solid #7B0467;
+    border: 10px solid #274b44;
     width:100%;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
