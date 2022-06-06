@@ -76,14 +76,14 @@ nav{
    
 }
 nav a:hover{
-    background-color:#7B0467;
+    background-color:#7b04678f;
     color:#EB9112;
     text-decoration: underline;
 
 }
 .book,.join{
 
-    background-color:#7B0467;
+    background-color:#EB9112;
     color: white;
     text-decoration: none;
     font-size: 18px;
@@ -93,7 +93,7 @@ nav a:hover{
 }
 
 .book:hover, .join:hover{
-    background-color: #EB9112;
+    background-color: #357d6d;
 }
 #background{
     background-color: #EB9112;
@@ -105,7 +105,7 @@ nav a:hover{
     width:100%
 }
 .msg{
-    background-color: #7B0467;
+    background-color: #7b04678f;
     color:white;
     line-height: 1em;
     padding: 35px;
