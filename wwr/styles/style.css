@@ -225,12 +225,12 @@ h2 {
     box-shadow: 5px 5px 10px #8e84b39c;
 }  
 
-.rectangule{
+.rectangule-box{
     display: grid;
     grid-template-columns: 3fr 1fr;
     margin-top: -100px; 
 }
-.rectangule-box{
+.rectangule-msg{
     grid-column: 1/3;
     background: #392f5eb9;
 }
