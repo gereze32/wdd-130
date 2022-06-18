@@ -257,6 +257,33 @@ h2 {
 
 }
 
+.big-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 100px;  
+}
+
+.canyon-trip{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width:100%;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.fast{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width:100%;
+    box-shadow: 5px 5px 10px #6f7364;
+
+}
+
+.family-trip{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    width:100%;
+    box-shadow: 5px 5px 10px #6f7364;
+}
 
 
 
