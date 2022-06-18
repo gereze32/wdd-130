@@ -263,14 +263,18 @@ h2 {
     margin-top: 100px;  
 }
 
-.canyon-trip{
+.canyon-trip, .fast, .family-trip{
+    margin: 200px 0;
+    text-align: center;
+}
+.canyon{
     grid-column: 1/2;
     grid-row: 1/2;
     width:100%;
     box-shadow: 5px 5px 10px #6f7364;
 }
 
-.fast{
+.fast-trip{
     grid-column: 2/3;
     grid-row: 1/2;
     width:100%;
@@ -278,12 +282,25 @@ h2 {
 
 }
 
-.family-trip{
+.family{
     grid-column: 3/4;
     grid-row: 1/2;
     width:100%;
     box-shadow: 5px 5px 10px #6f7364;
 }
+.canyon-trip h3{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.fast h3{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.family-trip h3{
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
 
 
 
