@@ -228,12 +228,11 @@ h2 {
 #rectangule-box{
     display: grid;
     grid-template-columns: 3fr 1fr;
+    background: #392f5eb9;
     
 }
-#rectangule-msg{
-    grid-column: 1/3;
-    background: #392f5eb9;
-}
+
+
 .rectangule-title{
     color:#44B6AB ;
     text-align: left;
