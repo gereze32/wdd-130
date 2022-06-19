@@ -225,6 +225,151 @@ h2 {
     box-shadow: 5px 5px 10px #8e84b39c;
 }  
 
+#rectangule-box{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background: #392f5eb9;
+    
+}
+
+
+.rectangule-title{
+    color:#44B6AB ;
+    text-align: left;
+    grid-column: 1/2;
+}
+.button-search{
+    text-align: center;
+    grid-column: 2/3;
+}
+.search{
+    background-color:#EB9112;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius:5px;
+}
+.search:hover{
+    background-color: #357d6d;
+
+}
+
+.big-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 20px;  
+}
+
+.canyon-trip, .fast, .family-trip{
+    margin: 50px 0;
+    text-align: center;
+    padding: 30px;
+    
+}
+.canyon{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width:100%;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+.fast-trip{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width:100%;
+    box-shadow: 5px 5px 10px #6f7364;
+
+}
+
+.family{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    width:100%;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+.canyon-trip h3{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.fast h3{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.family-trip h3{
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.button-reserve{
+    text-align: center;
+}
+.reserve{
+    background-color:#EB9112;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
