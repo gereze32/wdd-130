@@ -363,7 +363,10 @@ background-color: #274b44;
 }
 
 .check{
-    color: yellow;
+    color: green;
+}
+.not{
+    color: red;
 }
 
 
