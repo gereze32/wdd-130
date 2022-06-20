@@ -411,7 +411,7 @@ background-color: #274b44;
     #background {
         display: none;
     }
-    .mountains, .msg, .included {
+    .mountains, .msg, .included, .not-included {
         width: 80%;
         display: block;
         margin: 0 auto;
