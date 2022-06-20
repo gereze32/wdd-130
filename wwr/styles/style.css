@@ -394,6 +394,9 @@ background-color: #274b44;
         display: none;
     }
     .search{
+        display: inline-block;
+    }
+    input{
         display: block;
     }
     .home-title {
