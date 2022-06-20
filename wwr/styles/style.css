@@ -256,7 +256,7 @@ input {
 .submit{
     color:white;
     background-color:#EB9112;
-    
+    transition: .7s;
 }
 .submit:hover{
 background-color: #274b44;
