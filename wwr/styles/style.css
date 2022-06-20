@@ -386,15 +386,23 @@ background-color: #274b44;
     #hero, #rectangule-box {
         margin-top: 0;
     }
-    #hero-msg, .rectangule-title {
+    #hero-msg{
         margin-top: 0;
     }
+
     #hero-msg h4 {
+        display: none;
+    }
+    .search{
         display: none;
     }
     .home-title {
         font-size: 25px;
         color: #6f7364;
+    }
+    .rectangule-title{
+        display: none;
+        padding: 15px;
     }
     .rivers-card, .camping-card, .rapids-card, .canyon-trip, .fast, .family-trip { 
         margin: 50px auto;
