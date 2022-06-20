@@ -394,7 +394,7 @@ background-color: #274b44;
         display: none;
     }
     .search{
-        display: inline-block;
+        display: block;
     }
     input{
         display: block;
