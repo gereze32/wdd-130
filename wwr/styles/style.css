@@ -394,14 +394,14 @@ background-color: #274b44;
         display: none;
     }
     .search{
-        display: none;
+        display: block;
     }
     .home-title {
         font-size: 25px;
         color: #6f7364;
     }
     .rectangule-title{
-        display: none;
+        display: block;
         padding: 15px;
     }
     .rivers-card, .camping-card, .rapids-card, .canyon-trip, .fast, .family-trip { 
