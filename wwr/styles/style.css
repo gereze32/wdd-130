@@ -371,53 +371,8 @@ background-color: #274b44;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #hero, .home-grid, .rectangule-box, .big-grid {
         display: block;
         height: auto;
     }
@@ -428,10 +383,10 @@ background-color: #274b44;
         display: block;
         padding: 15px;
     }
-    #hero {
+    #hero, #rectangule-box {
         margin-top: 0;
     }
-    #hero-msg {
+    #hero-msg, .rectangule-title {
         margin-top: 0;
     }
     #hero-msg h4 {
@@ -441,14 +396,14 @@ background-color: #274b44;
         font-size: 25px;
         color: #6f7364;
     }
-    .rivers-card, .camping-card, .rapids-card { 
+    .rivers-card, .camping-card, .rapids-card, .canyon-trip, .fast, .family-trip { 
         margin: 50px auto;
         width: 60%;
     }
     #background {
         display: none;
     }
-    .mountains, .msg {
+    .mountains, .msg, .included {
         width: 80%;
         display: block;
         margin: 0 auto;
