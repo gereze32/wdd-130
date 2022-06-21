@@ -371,7 +371,7 @@ background-color: #274b44;
 
 
 @media screen and (max-width: 900px) {
-    #hero, .home-grid, .rectangule-box, .big-grid {
+    #hero, .home-grid, .big-grid {
         display: block;
         height: auto;
     }
@@ -394,6 +394,7 @@ background-color: #274b44;
     }
     .search{
         display: block;
+        width: 80%;
     }
     input{
         display: block;
@@ -405,6 +406,8 @@ background-color: #274b44;
     .rectangule-title{
         display: block;
         padding: 15px;
+        text-align: center;
+        width: 70%;
     }
     .rivers-card, .camping-card, .rapids-card, .canyon-trip, .fast, .family-trip { 
         margin: 50px auto;
