@@ -368,17 +368,16 @@ background-color: #274b44;
     color: red;
 }
 
-
-
 .contact {
-    /* Center the form on the page */
-    margin: 0 auto;
-    width: 400px;
-    /* Form outline */
-    padding: 1em;
-    border: 1px solid #CCC;
-    border-radius: 1em;
-  }
+        margin: 0 auto;
+        margin-top: 50px;
+        width: 400px;
+        padding: 1em;
+        border: 1px solid #CCC;
+        border-radius: 1em;
+        background-color: #afdde3;
+        margin-bottom: 50px;
+}
   
   ul {
     list-style: none;
@@ -386,7 +385,7 @@ background-color: #274b44;
     margin: 0;
   }
   
-  form li + li {
+  form li {
     margin-top: 1em;
   }
   
