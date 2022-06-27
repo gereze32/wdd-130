@@ -376,7 +376,7 @@ background-color: #274b44;
     grid-template-columns: repeat( 2, 1fr );
     
 }
-.hero-contact{
+#hero-contact{
     grid-column: 1/3;
     grid-row: 1/2;
     
