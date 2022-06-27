@@ -378,6 +378,7 @@ background-color: #274b44;
 }
 .hero-contact{
     grid-column: 1/3;
+    grid-row: 1/2;
     
 
 }
@@ -391,6 +392,7 @@ background-color: #274b44;
         background-color: #afdde3;
         margin-bottom: 50px;
         grid-column: 1/3;
+        grid-row: 1/2;
         
 }
   
