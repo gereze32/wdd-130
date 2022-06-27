@@ -448,7 +448,10 @@ background-color: #274b44;
 .moveDown {
     margin-top: 3em;
 }
-                    
+.form{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
 
 
 
