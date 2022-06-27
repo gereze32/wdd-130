@@ -385,11 +385,11 @@ background-color: #274b44;
     margin: 0;
   }
   
-  form li {
+  form li +li{
     margin-top: 1em;
   }
   
-  .name_contact {
+  .name {
     /* Uniform size & alignment */
     display: inline-block;
     width: 90px;
