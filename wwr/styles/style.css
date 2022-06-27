@@ -370,6 +370,10 @@ background-color: #274b44;
 
 
 /*styling the form contact us*/
+.forms{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
 
 .contact {
         margin: 0 auto;
@@ -450,10 +454,6 @@ background-color: #274b44;
 }
 .moveDown {
     margin-top: 3em;
-}
-.form{
-    grid-column: 2/3;
-    grid-row: 1/2;
 }
 
 
