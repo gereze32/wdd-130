@@ -385,7 +385,7 @@ background-color: #274b44;
     margin: 0;
   }
   
-  form li +li{
+  form li {
     margin-top: 1em;
     margin-left: 50px;
   }
