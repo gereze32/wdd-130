@@ -61,6 +61,7 @@
   .grid4 h2 {
     align-items: center;
     grid-column: 2/4;
+    padding: 1em;
 
   }
   
@@ -92,9 +93,8 @@
   
   fieldset{
     
-    display: grid;
-    grid-template-columns:(1fr 5fr);
-    padding: 1em;
+    grid-column: 1/5;
+    
   }
   
   legend {
@@ -129,7 +129,7 @@
   }
   
   section > div {
-    align-items: center;
     grid-column: 2/7;
     grid-row: 3/4;
+    padding-block: 1em;
   }
