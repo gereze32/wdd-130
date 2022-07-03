@@ -130,4 +130,6 @@
   
   section > div {
     align-items: center;
+    grid-column: 2/7;
+    grid-row: 3/4;
   }
