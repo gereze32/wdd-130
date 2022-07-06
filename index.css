@@ -1,0 +1,32 @@
+#content{
+    max-width: 1600px; 
+    margin: 0 auto;
+   }
+   nav a{
+    text-align: center;
+    color:rgb(47, 86, 203);
+    text-decoration: none;
+    padding: 15px;
+    color: azure;
+    font-size:2em;
+   }
+nav{
+    display:flex;
+    justify-content: space-around;
+    background-color: darkslategray;
+}
+nav a:hover{
+    background-color:#191920b9;
+    color:#b7f4fe;
+    text-decoration: none;
+}
+
+h1{
+    padding: 1em;
+    text-transform:uppercase;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: rgb(251, 251, 251);
+    text-shadow: #6b6e6e 2px 2px;
+    word-spacing: 0.5em;
+}
