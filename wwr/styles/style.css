@@ -3,11 +3,23 @@
     max-width: 1600px; 
     margin: 0 auto;
    }
+   
    nav a{
     text-align: center;
     color:white;
     text-decoration: none;
     padding: 35px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+   
+}
+nav a:hover{
+    background-color:#7b04678f;
+    color:#EB9112;
+    text-decoration: underline;
+
 }
 #hero {
     display: grid;
@@ -69,17 +81,7 @@ header{
     opacity: 90%;
     font-family: Sen;
 }
-nav{
-    display: flex;
-    justify-content: space-around;
-   
-}
-nav a:hover{
-    background-color:#7b04678f;
-    color:#EB9112;
-    text-decoration: underline;
 
-}
 .book,.join{
 
     background-color:#EB9112;

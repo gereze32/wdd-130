@@ -10,26 +10,27 @@
     
     color: azure;
     font-size:2em;
-    margin
     
    }
 nav{
     display:block;
-    background-color: darkslategray;
-    max-width: 40%;
-    margin-left: 25%;
+    max-width: 60%;
+    margin:0 auto;
 }
 
+
 nav a:hover{
-    background-color:#040405b9;
+    
     color:#deff38;
-    text-decoration: none;
+    text-decoration: none;    
     
 }
 li{
     list-style: none;
     padding: 2em;
     text-align: center;
+    margin-bottom: 1em ;
+    background-color: rgb(3, 53, 58);
     
 }
 h1{
