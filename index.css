@@ -6,21 +6,32 @@
     text-align: center;
     color:rgb(47, 86, 203);
     text-decoration: none;
-    padding: 15px;
+    padding: 1em;
+    
     color: azure;
     font-size:2em;
+    margin
+    
    }
 nav{
-    display:flex;
-    justify-content: space-around;
+    display:block;
     background-color: darkslategray;
-}
-nav a:hover{
-    background-color:#191920b9;
-    color:#b7f4fe;
-    text-decoration: none;
+    max-width: 40%;
+    margin-left: 25%;
 }
 
+nav a:hover{
+    background-color:#040405b9;
+    color:#deff38;
+    text-decoration: none;
+    
+}
+li{
+    list-style: none;
+    padding: 2em;
+    text-align: center;
+    
+}
 h1{
     padding: 1em;
     text-transform:uppercase;
