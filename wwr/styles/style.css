@@ -67,12 +67,14 @@ main section img{
 #background {
     height: 725px;
 }
+
 body{
     background-color: white;
     font-size: 22px;
     margin: 0;
     padding: 0;
 }
+
 header{
     background-color:  #274b44;
     color:#EB9112;
