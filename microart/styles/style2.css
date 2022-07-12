@@ -215,6 +215,10 @@ h1{
     padding: 2em;
     margin-bottom: 30%;
 }
+iframe{
+    width:900px;
+     height:506px; 
+}
 .video-1 h3{
     padding:2em;
     font-size: 3em;
@@ -330,7 +334,7 @@ footer a{
     text-decoration: none;
 
 }
-footer #link_logo{
+footer .link_logo{
 
     width: 20%;
 }    
