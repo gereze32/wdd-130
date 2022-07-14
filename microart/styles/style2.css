@@ -412,7 +412,26 @@ footer .logo{
 
 .work-video{
     grid-area: work-video;
+    display: grid;
+    grid-template-columns: repeat(2 auto);
+    grid-template-rows: repeat(2 auto);
 }
+
+.work-video h3{
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+.work-video .video-2{
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+
+.work-box-1{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
 
 .work-sect-2{
     grid-area: work-sect-2;
@@ -427,4 +446,63 @@ footer .logo{
 
 .work-sect-3{
     grid-area: work-sect-3;
+}
+
+
+
+
+
+
+
+/* Biography.html  */
+
+.main-2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: repeat(5 auto);
+    grid-gap: 5em;
+
+    grid-template-areas: "title-2         title-2"
+                         "section-b-1     img-1"
+                         "box-b-1         box-b-1"
+                         "img-2           section-b-2"
+                         "section-b-3     section-b-3";
+}
+
+.title-2{
+    grid-area: title-2;
+}
+
+.section-b-1{
+    grid-area: section-b-1;
+}
+
+.img-1{
+    grid-area: img-1;
+}
+
+.box-b-1{
+    grid-area: box-b-1;
+}
+
+.box-b-1 img{
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+.box-b-1 h2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.img-2{
+    grid-area: img-2;
+}
+
+.section-b-2{
+    grid-area: section-b-2;
+}
+
+.section-b-3{
+    grid-area: section-b-3;
 }
