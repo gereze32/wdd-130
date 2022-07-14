@@ -24,6 +24,8 @@ p{
     letter-spacing: 2px;
     stroke-opacity: unset;  
 }
+
+/* IDEX.html*/
 header{
     display: grid;
     grid-template-rows: 6em auto;
@@ -377,3 +379,52 @@ footer .logo{
 
 }
 
+
+
+/*WORK.html*/
+
+
+.main-3{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows:repeat(5, auto) ;
+    grid-gap: 5em;
+
+    grid-template-areas: "title-3        title-3"
+                         "work-img-1     article-work-1"
+                         "work-video     work-video"
+                         "work-sect-2    work-box-2"
+                         "work-box-3     work-sect-3";
+
+}
+
+.title-3{
+    grid-area: title-3;
+}
+
+.work-img-1{
+    grid-area: work-img-1;
+}
+
+.article-work-1{
+    grid-area: article-work-1;
+}
+
+.work-video{
+    grid-area: work-video;
+}
+
+.work-sect-2{
+    grid-area: work-sect-2;
+}
+.work-box-2{
+    grid-area: work-box-2;
+}
+
+.work-box-3{
+    grid-area: work-box-3;
+}
+
+.work-sect-3{
+    grid-area: work-sect-3;
+}
