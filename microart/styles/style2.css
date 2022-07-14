@@ -3,6 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic:ital@1&family=Cantarell&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Edu+VIC+WA+NT+Beginner&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -15,98 +18,107 @@ body{
 
 #content{
     max-width: 1500px; 
-    margin: 0 auto;
-    
+    margin: 0 auto;   
 }
+
+
 p{
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
     font-size: 1.9em;
     letter-spacing: 2px;
-    stroke-opacity: unset;  
+    letter-spacing: 2px;
+    opacity: 85%;
+    
 }
 
 /* IDEX.html*/
 header{
     display: grid;
-    grid-template-rows: 6em auto;
-    grid-template-columns: repeat(2,auto);
+    grid-template-columns: 650px auto;
     width: 100%;
-    
 }
 
 
 nav{
-    grid-column: 1/3;
-    grid-row: 1/2;
-    z-index: 1;
+    grid-column: 2/3;
+    z-index: 3;
     display: flex;
     width:100%;
-    height:5%;
+    height:8%;
     margin-top: 2.5em;
     align-items:center;
-    justify-content:end;
+    justify-content:space-around;
     background-color: #0a5776dc;
 }
+
+
 nav a:nth-of-type(1){
     background-color:#16787ded;
     padding: 11px 30px;
     margin-right: 1.6em;
 }
+
+
 nav a:nth-of-type(1):hover{
     color: rgb(251, 154, 34);
 }
+
+
 nav a{
-    justify-content: space-around;
-    padding: 1em;
-    font-size: 1.2em;
+    padding: 0.2em;
+    font-size: 1.5em;
     text-decoration: none;
     color: white;
-    margin-right: 2em;
     font-family: 'Andika New Basic', sans-serif;
     transition: 0.6s;
         }
 
+
 nav a:hover{
     color:#FF6F00;
+    text-decoration:overline;
 }    
 
-#logo{
-    grid-column: 1/2;
-    grid-row: 1/2;
-    z-index: 2;
-    
+nav a:active{
+    color: rgb(62, 117, 141);
+    cursor: pointer;
+    text-shadow: #417895fa 0.4em 0.2em 0.2em;
 
+}
+
+#link_logo{
+    grid-column: 1/2;
+     z-index: 2;
+     
 }
 
 .logo{
     margin-left: 3em;
     margin-top: 1em;
-    width: 15%;
+    width: 12%;
     border-radius: 100%;
     box-shadow: #fff6eddb 0.2em 0.2em 1em;
 }
+
 .logo:hover{
     box-shadow: #fffffffe 0.5em 0.5em 3em;
     transition: 0.3s;
 }
-nav a:active{
-    cursor: pointer;
-    text-decoration:overline;
-    text-shadow: #fc9300fa 0.4em 0.2em 0.2em;
 
-}
- #title{
-    grid-column: 1/3;
-    grid-row: 2/3;
-    z-index: 1;
+.hero-box{
+    display: grid;
+    margin-top: -6em;
+   
 }
 
-#title {
+.title {
     display: grid;
     grid-template-rows: 10em 20em 2.5em;
     grid-column: 1/3;
+    grid-row: 1/2;
     z-index: 1;   
     padding: 1em;
+    margin-top: 8em;
 }
 
 h1{
@@ -122,7 +134,7 @@ h1{
 }
 
 
-#title h2{
+.title h2{
     grid-row: 1/2;
     margin: 0;
     font-size: 10em;
@@ -148,7 +160,7 @@ h1{
 }
 #hero{
     grid-column: 1/3;
-    grid-row: 1/3;
+    grid-row: 1/2;
 }
 .hero-img{
     width: 100%;
@@ -167,7 +179,7 @@ h1{
     grid-template-areas: "section-1    article-1 "
                          "article-2    section-2"
                          "video-1      box-1"
-                         "box-2    section-3"
+                         "box-2        section-3"
                          "footer       footer";
 }
 
@@ -188,28 +200,32 @@ h1{
 
     grid-area: article-1;
 }
+
 .p1{
     padding: 2em;
 }
+
 .section-2{
     display: flex;
     align-items: center;
-   
     grid-area: section-2;
 }
+
 .case-img{
     width: 90%;
     padding: 2em;
 }
+
 .article-2{
     z-index: 1;
     margin-top: -30%;
-    grid-area: article-2;
-   
+    grid-area: article-2;  
 }
+
 .p2{
     padding: 2em;
 }
+
 .video-1{
   
     width: 150%;
@@ -217,16 +233,19 @@ h1{
     padding: 2em;
     margin-bottom: 30%;
 }
+
 iframe{
     width:900px;
      height:506px; 
 }
+
 .video-1 h3{
     padding:2em;
     font-size: 3em;
     letter-spacing: 6px; 
     text-align: right;
 }
+
 .hr{
    margin-left:34em;
    width: 85%;
@@ -246,19 +265,23 @@ iframe{
     border-bottom-right-radius: 50px;
 
 }
+.p3{
+    font-family: banger;
+    opacity: 90%;
+}
     
 .section-3{
     margin-top: 10%;
     grid-area: section-3;
     margin-bottom: 30%;
     width: 140%;
-    
-    
 }   
+
 .watch-img{
     width: 100%;
     margin-left: -30%;
 }
+
 .box-2{
     z-index: 2;
     margin-left: 0.5em;
@@ -271,21 +294,21 @@ iframe{
     border-radius: 15px;
     opacity: 95%;
 }
+
 h5{
     color:#ec7a23;
     text-align: end;
     font-size: 3em;
     margin-right: 5%;
+    font-family: manrope;
 }
+
 .check-botton{
    justify-content: flex-end;
    align-items: center;
-   margin-top:-18%;
-
-      
-   
-
+   margin-top:-18%;    
 }
+
 .check{
     background-color: black;
     padding: 1em;
@@ -296,15 +319,17 @@ h5{
     box-shadow: 0.2em 0.2em 0.3em rgb(8, 94, 78);
     margin-left:70%;
 }
+
 .check:hover{
    transition: all 0.2s;
     background-color: #475e69;
 }
+
 .check:active{
     cursor: pointer;
-    margin-left: 70.5%;
-    
+    margin-left: 70.5%;    
 }
+
 .p4{
     padding: 1.5em;
     width: 60%;
@@ -316,38 +341,39 @@ h5:last-of-type{
     font-size: 3em;
     margin-right: 30%;
 }
+
 .hr-2{
     width: 80%;
     margin: 0 auto;
 }
+
 footer{
     display: flex;
     grid-area: footer;
     justify-content: space-around;
     align-items:center;
-
 }
+
 footer h3{
     width: 40%;
-    letter-spacing: 3px;
- 
+    letter-spacing: 3px; 
 }
+
 footer a{
     text-decoration: none;
-
 }
-footer .link_logo{
 
+footer .link_logo{
     width: 20%;
 }    
-.siteplan{
-    
+
+.siteplan{    
     width: 10%;
     font-size: 1.5em;
     margin-right: 1em;
     color: azure;
-   
 }
+
 .siteplan:hover{
     color: #FF6F00;
     text-shadow: #FF6F00 0.1em 0.1em 0.2em;
@@ -360,23 +386,24 @@ footer .logo{
 
 .social{
     display: flex;
-    width: 50%;
+    width:60%;
     align-items: center;
 }
+
 .social a img{
-    width: 95%;
+    width: 120%;
     transition: all 0.2s;
 }
+
 .social a img:hover{
     transform: scale(1.2);
     filter:sepia(1);
 
 }
-.share{
-    
+
+.share{    
     width: 125%;
     margin-top: 0.5em;
-
 }
 
 
@@ -389,7 +416,6 @@ footer .logo{
     grid-template-columns: 50% 50%;
     grid-template-rows:repeat(5, auto) ;
     grid-gap: 5em;
-
     grid-template-areas: "title-3        title-3"
                          "work-img-1     article-work-1"
                          "work-video     work-video"
@@ -399,15 +425,38 @@ footer .logo{
 }
 
 .title-3{
+    margin-left: 5em;
     grid-area: title-3;
+    margin-bottom: -4em;
+
+}
+.title-3 h2{
+   margin-top: 0.5em;
+   font-size: 120px;    
+   font-family: manrope;
+   margin-left: 0.3em;
+   letter-spacing: 12px;
+   font-weight: lighter;
+   margin-bottom: -1em;
+
 }
 
 .work-img-1{
     grid-area: work-img-1;
+    margin-left: 20px;
+    
+}
+.work-img-1 img{
+    width: 130%;
 }
 
 .article-work-1{
     grid-area: article-work-1;
+    width: 60%;
+    padding: 100px;
+    justify-self: end;
+
+
 }
 
 .work-video{
@@ -418,24 +467,53 @@ footer .logo{
 }
 
 .work-video h3{
-    grid-column: 1/3;
+    color: #FF6F00;
+    grid-column: 1/2;
     grid-row: 1/2;
+    font-size: 4em;
+    justify-self: center;
+    margin-top: -200px;
+    font-family: manrope;
+    word-spacing: 20px;
 }
 
 .work-video .video-2{
-    grid-column: 1/3;
+    grid-column: 1/2;
     grid-row: 2/3;
 }
 
 .work-box-1{
     grid-column: 2/3;
     grid-row: 2/3;
+    justify-self: center;
+    width: 600px;
+}
+.work-video .pulse{
+    font-size: 3em;
+    margin-left: -100px;
+    margin-top:-100px;
+}
+
+.work-video .breathing{
+    font-size: 3em;
+    margin-left: px;
+}
+.work-video .concentration{
+    font-size: 3em;
+    margin-left: 100px;
+}
+.work-video p{
+    margin-right: 120px;
+    text-align:right;
+    margin-top: 80px;
 }
 
 
 .work-sect-2{
     grid-area: work-sect-2;
 }
+.work
+
 .work-box-2{
     grid-area: work-box-2;
 }
@@ -483,6 +561,8 @@ footer .logo{
 
 .box-b-1{
     grid-area: box-b-1;
+    grid-template-columns: repeat(2 auto);
+    grid-template-rows: repeat(2 auto);
 }
 
 .box-b-1 img{
