@@ -798,7 +798,7 @@ text-align: right;
         background-color: #597a8a;
      }
     #content{
-        width: 130%;
+        width: 200%;
         background-color: #08273c;
         margin: 0;
         display: block;
@@ -817,23 +817,21 @@ text-align: right;
     display: none;
     }
      
-
-     
     .hero-box h2{
         z-index: 2;
-        font-size: 100px;
+        font-size: 80px;
         margin-left: 10px;
     }
     .hero-box .title h1{
-        font-size: 250px;
+        font-size: 180px;
         margin-left: 50px;
-        margin-top: -150px;
+        margin-top: -300px;
     }
 
     .sub-title{
         z-index: 2;
         margin-left: 200px;
-        margin-top: -150px;
+        margin-top: -250px;
         font-size: 30px;
     }
     .hero-box{
