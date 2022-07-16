@@ -795,10 +795,10 @@ text-align: right;
 
 @media screen and (max-width: 900px) {
      body{
-        background-color: #f30f0f97;
+        background-color: #14f11497;
      }
     #content{
-        width: 250%;
+        width: 280%;
         background-color: #08273c;
         margin: 0;
         display: block;
