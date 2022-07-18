@@ -936,7 +936,7 @@ text-align: right;
     padding: 50px;
     border: 3px solid whitesmoke;
     border-radius: 10px;
-    box-shadow: 8px 8px 20px rgba(99, 169, 198, 0.935);
+    box-shadow: 8px 8px 30px rgba(104, 161, 186, 0.935);
   }
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], input[type=email], select, textarea {
@@ -972,8 +972,13 @@ input[type=text], input[type=email], select, textarea {
     padding:100px 350px 150px 350px;
   }
 
+/*calendar*/
 
-
+.calendar{
+ padding: 250px;
+ font-size: 15px;
+  
+ }
 
 
 
