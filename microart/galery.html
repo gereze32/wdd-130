@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MicroArt</title>
+    <link rel="stylesheet" href="styles/style2.css">
+</head>
+
+<body>
+ <div id="content">
+    <header>
+        <a id="link_logo" href="index.html">
+          <img class="logo" src="images/mini-logo.png" alt="Microart Logo">
+        </a>
+      <nav >
+        <a href="index.html">Home</a>
+        <a href="work.html">Work</a>
+        <a href="biography.html">Biography</a>
+        <a href="contact_us.html">Contact Us</a>
+      </nav>
+    </header>
+    <section class="title-3">
+        <h2 id="galery-subtitle">Some Works</h2>
+        <h1 class="galery-title">Galery</h1>
+    </section>
+
+
+
+<!-- Container for the image gallery -->
+    <div class="container">
+
+        <!-- Full-width images with number text -->
+        <div class="mySlides">
+          <div class="numbertext">1 / 9</div>
+            <img src="images/camels.JPG" style="width:60%">
+            <div class="explanation">
+                <p> artwork's explanation </p>
+              </div>
+          
+          </div>
+          
+        <div class="mySlides">
+          <div class="numbertext">2 / 9</div>
+            <img src="images/sweet-home.jpg" style="width:60%">
+            <div class="explanation">
+                <p> artwork's explanation </p>
+              </div>
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">3 / 9</div>
+            <img src="images/unt.jpg" style="width:60%">
+            <div class="explanation">
+                <p> artwork's explanation </p>
+              </div>
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">4 / 9</div>
+            <img src="images/manger.jpg" style="width:60%">
+            <div class="explanation">
+                <p> artwork's explanation </p>
+              </div>
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">5 / 9</div>
+            <img src="images/sugar-grain.jpg" style="width:50%">
+            <div class="explanation">
+                <p> artwork's explanation </p>
+              </div>
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">6 / 9</div>
+            <img src="images/A_place.jpg" style="width:30%">
+            <div class="explanation">
+                <p> artwork's explanation </p>
+              </div>
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">7 / 9</div>
+              <img src="images/the_beach.jpeg" style="width:60%">
+              <div class="explanation">
+                <p> artwork's explanation </p>
+              </div>
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">8 / 9</div>
+              <img src="images/eyelash.jpg" style="width:60%">
+              <div class="explanation">
+                <p> artwork's explanation </p>
+              </div>
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">9 / 9</div>
+              <img src="images/monster flea.jpg" style="width:60%">
+              <div class="explanation">
+                <p> artwork's explanation 
+                </p>
+              </div>
+          </div>
+      
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+        <!-- Image text -->
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+      
+        <!-- Thumbnail images -->
+        <div class="row">
+          <div class="column">
+            <img class="demo cursor" src="images/camels.JPG" style="width:70%" onclick="currentSlide(1)" alt="The small entrance">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/sweet-home.jpg"style="width:70%" onclick="currentSlide(2)" alt="Home Sweet Home">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/unt.jpg" style="width:70%" onclick="currentSlide(3)" alt="Tiny Artist">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/manger.jpg" style="width:70%" onclick="currentSlide(4)" alt="Tne manger">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/sugar-grain.jpg" style="width:50%" onclick="currentSlide(5)" alt="My landscape">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/A_place.jpg" style="width:30%" onclick="currentSlide(6)" alt="A songplace">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/the_beach.jpeg" style="width:90%" onclick="currentSlide(7)" alt="The beach">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/eyelash.jpg" style="width:60%" onclick="currentSlide(8)" alt="Her eyelash">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="images/monster flea.jpg" style="width:60%" onclick="currentSlide(9)" alt="Monster flea">
+          </div>
+
+        </div>
+      </div>
+
+
+    <!--javascript to make the slideshow work-->
+
+
+      <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("demo");
+          let captionText = document.getElementById("caption");
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "flex";
+          dots[slideIndex-1].className += " active";
+          captionText.innerHTML = dots[slideIndex-1].alt;
+        }
+        </script>
+
+
+<hr class="hr-2">
+<footer>
+    
+    <a class="link_logo" href="index.html">
+        <img class="logo" src="images/mini-logo.png" alt="Microart Logo">
+      </a>
+    <h3>MicroArt &copy; 2022 - Eduardo Gerez</h3>
+    <a class="siteplan" href="site-plan.html">Site-Plan</a>
+    <div class="social">
+        <a class="share" href="#">
+         <img src="images/icon-share.png" alt="icon share">
+        </a>
+        <a href="https://facebook.com">
+            <img src="images/face-icon.png" alt="fb icon">
+        </a>
+        <a href="https://twitter.com">
+            <img src="images/tweet-icon.png" alt="twitter icon">
+        </a>
+        <a href="https://instagram.com">
+            <img src="images/inst-icon.png" alt="instagram icon">
+        </a>
+        <a href="https://youtube.com">
+            <img src="images/youtube-icon.png" alt="YouTube  icon">
+        </a>
+    </div>
+</footer> 
+</div>
+
+</body>
+</html>

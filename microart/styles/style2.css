@@ -422,7 +422,7 @@ footer .logo{
 }
 
 .title-3{
-    
+    color: #FF6F00;
     margin-left: 5em;
     grid-area: title-3;
     margin-bottom: -4em;
@@ -441,6 +441,7 @@ footer .logo{
 }
 
 .work-img-1{
+
     grid-area: work-img-1;
     margin-left: 20px;
     
@@ -766,11 +767,13 @@ text-align: right;
     align-self: center;
     margin-left: 40px;
    }
+   
    .contact{
     margin-top: 20px;
     margin-bottom: 30px;
     padding: 2em;
    }
+
    .contact a{
     padding: 1em;
     color: #ec7a23;
@@ -789,60 +792,274 @@ text-align: right;
 
 
 
+/*galery.html*/
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .galery-title{
+    font-size: 150px;
+    margin-bottom: 20px;
+  }
+  #galery-subtitle{
+    width: 900px;
+    color:#FF6F00;
+    font-size: 50px;
+    margin-left: 50px;
+    margin-bottom: -70px;
+    
+  }
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+
+  .mySlides{
+    justify-content: center;
+  }
+  
+  /* Hide the images by default */
+  
+  .explanation{
+      position: relative;
+      font-size: 10px;
+      align-self: center;
+  }
+  .explanation p{
+    padding: 50px;
+  }
+
+ 
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: rgb(254, 138, 6);
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2a6;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: rgba(33, 53, 61, 0.756);
+    padding: 8px 12px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /*  columns side by side */
+  .column {
+    float: left;
+    width: 11%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+  .row{
+    padding-bottom: 50px;
+  }
+
+
+
+
+
+  /* contact us */
+
+  
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], input[type=email], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #ff790b;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    color: #FF6F00;
+    background-color: #3a3229;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container-contact {
+    border-radius: 5px;
+    padding:100px 350px 150px 350px;
+  }
+
+
+
+
+
+
 /* media query*/
 
 
 
 @media screen and (max-width: 900px) {
      body{
-        background-color: #14f11497;
+        
+        background-color: #4a05f797;
      }
     #content{
-        width: 280%;
-        background-color: #08273c;
-        margin: 0;
-        display: block;
-        height: auto;
+        background-color: #597a8a;
     }
     header{
         display: block;
+        width: auto;
+        margin: 0;
+        padding: 0;
+
     }
     nav{
+        width: auto;
+        margin: 0;
+        display: block;
+        padding: 0;
         background-color: rgb(40, 46, 52);
     }
-    nav a{
-        font-size: 100%;
+
+    .title{
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px;
+        z-index: 3;
+        font-size: 2px;
+        z-index: 5;
     }
+
+    .hero-img{
+        margin-top: -25em;
+        z-index: -2;
+    }
+    nav a{
+        display: block;
+        width: auto;
+        margin: 0;
+        padding: 0;
+        }
+
     header #link_logo{
     display: none;
+    width: auto;
+    margin: 0;
+    padding: 0;
     }
      
     .hero-box h2{
-        z-index: 2;
-        font-size: 80px;
-        margin-left: 10px;
+        display: block;
+        margin: 0 auto;
+        padding: 15px;  
+        font-size: 8em;
+        z-index: 4;
     }
+
     .hero-box .title h1{
-        font-size: 180px;
-        margin-left: 50px;
-        margin-top: -300px;
+        display: block;
+        font-size: 10em;
+        padding: 20px;
+        z-index: 5;
     }
 
     .sub-title{
-        z-index: 2;
-        margin-left: 200px;
-        margin-top: -250px;
-        font-size: 30px;
+        display: block;
+        width: auto;
+        margin: 0 auto;
+        padding: 10px;
+        height: auto;
+
+    
     }
     .hero-box{
-        margin-top: -150px;
-        margin-bottom: -150px;
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    
+
+       
     }
     .hero-box #hero{
-        margin-top: 150px;
+        z-index: -1;
+        display: block;
+        width: auto;
+        margin: 0;
+        padding: 0;
     }
+
+
     
     .main{
+        display: block;
+        width: auto;
+        margin: 0;
+        padding: 0;
         grid-template-columns: none;
         grid-template-areas: 
         "article-1   "
@@ -857,56 +1074,117 @@ text-align: right;
         "footer";
     }
     .article-1{
-        width: 90%;
-        justify-self: center;
+        display: block;
+        margin: 0;
+        padding: 0;
+        width: auto;
     }
     
     .section-1{
-        width: 100%;
+        display: block;
+        margin: 0;
+        padding: 0;
+        width: auto;
+       
     }
     .manger{
-        width: 90%;
-        margin-top: -300px;
-    }
-    .article-2{
-        width: 90%;
-        margin-top: -100px;
-        justify-self: center;
-    }
-    .case{
-        width: 90%;
-        margin: 0 auto;
-    }
-    .video-1{
-        width: 80%;
-        height: 400px;
-        }
-    iframe{
-        width: 800px;
-    }
-    .box-1{
-        justify-self:center;
-        width: 80%;
-        height: 160px;
-        background-color: #c45704;
-        border-radius: unset;
-        margin: auto;
+        display: block;
+        margin: 0;
+        padding: 0;
+        width: auto;
 
     }
+    .hr{
+        margin: 0;
+        padding: 0;
+        display: block;
+    }
+    h3{
+        display: block;
+        width: auto;
+        margin: 0;
+        padding: 0;
+
+    }
+    .video-1 h3{
+        padding: 0;
+        width: auto;
+        margin: 0;
+        display: block;
+    }
+    .article-2{
+        display: block;
+        margin: 0;
+        padding: 0;
+        width: auto;
+       
+    }
+    .case{
+        display: block;
+        margin: 0;
+        padding: 0;
+        width: auto;
+      
+    }
+    .video-1{
+        display: block;
+        margin: 0;
+        padding: 0;
+        width: auto;
+     
+        }
+    iframe{
+        display: block;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        
+    }
+    .box-1{
+        display: block;
+        width: auto;
+        margin: 0;
+        padding: 0;
+        background-color: #c45704;
+        border-radius: unset;
+
+    }
+
+    .watch-img{
+        display: block;
+        width: fit-content;
+        margin: 0;
+        padding: 0;
+    }
     .section-3{
+        width: auto;
+        display: block;
+        margin: auto;
+        padding: 0;
         background-color: aliceblue;
-        width: 90%;
-        justify-self: center;
     }
     .section-3 img{
-        margin: 0 auto;     
+        width: 100%;
     }
 
     .box-2{
-        width: 75%;
-        height: 400px;
-        justify-self: center;
-        margin-top: -200px;
+        display: block;
+        margin: auto;
+        padding: 0;
+      
+    }
+    .check{
+        width: 50%;
+        margin: 0;
+        padding: 0;
+        display: block;
+    }
+    footer{
+        display: block;
+        padding: 0;
+        margin: 0;
+        width: auto;
+        height: auto;
     }
 }
 
