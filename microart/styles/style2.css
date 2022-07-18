@@ -15,15 +15,16 @@ body{
 }
 
 #content{
-    max-width: 1600px; 
+    max-width: 1400px; 
     margin: 0 auto;   
+    
    
 }
 
 
 p{
     font-family: Cormorant;
-    font-size: 2em;
+    font-size: 35px;
     letter-spacing: 2px;
     opacity: 85%;
     
@@ -250,13 +251,13 @@ iframe{
 
 .box-1{
     grid-area: box-1;
-    margin-right: 4em;
-    padding: 2em;
+    margin-right: 40px;
+    padding: 40px;
     background-color: rgba(10, 71, 92, 0.612);
     text-align: center;
-    align-self:center;
-    width: 50%;
-    height: 30%;
+    align-self: center;
+    width: 60%;
+    height:50%;
     justify-self: flex-end;
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;
@@ -281,15 +282,18 @@ iframe{
 
 .box-2{
     z-index: 2;
-    margin-left: 0.5em;
+    margin-left: 20px;
     grid-area: box-2;
-    background-color: rgb(68, 72, 81);
-    padding: 2em;
-    width: 100%;
-    height: 40%;
+    background-color: rgb(59, 61, 65);
+    padding: 20px;
+    width: 110%;
+    height: 50%;
     align-self: center;
     border-radius: 15px;
     opacity: 95%;
+}
+.box-2 p{
+    width: 80%;
 }
 
 h5{
@@ -319,7 +323,7 @@ h5{
 
 .check:hover{
    transition: all 0.2s;
-    background-color: #475e69;
+    background-color: #f55703;
 }
 
 .check:active{
@@ -443,20 +447,20 @@ footer .logo{
 .work-img-1{
 
     grid-area: work-img-1;
-    margin-left: 20px;
+   
     
 }
 
 .work-img-1 img{
-    width: 120%;
-    margin-left: 20px;
+    width: 100%;
+    margin-left: 40px;
 }
 
 .article-work-1{
     grid-area: article-work-1;
-    width: 60%;
-    padding: 100px;
-    margin-right: 50px;
+    width:80%;
+    padding: 50px;
+
 }
 
 .article-work-1 p{
@@ -475,9 +479,9 @@ footer .logo{
     color: #FF6F00;
     grid-column: 1/2;
     grid-row: 1/2;
-    font-size: 4em;
+    font-size: 70px;
     justify-self: right;
-    margin-top: -50px;
+    margin-top: -150px;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     word-spacing: 10px;
     margin-bottom: 150px;
@@ -489,30 +493,28 @@ footer .logo{
 }
 
 .work-box-1{
-    margin-top: 300px;
+    margin-top: 100px;
     grid-column: 2/3;
     grid-row: 2/3;
     justify-self: center;
-    width: 600px;
-    margin-right: 80px;
+    width:80%;
 }
 .work-video .pulse{
-    font-size: 3em;
+    font-size: 50px;
     margin-left: 180px;
     margin-top:-150px;
 }
 
 .work-video .breathing{
-    font-size: 3em;
-    margin-left: 50px;
+    font-size: 50px;
+    margin-left: 80px;
 }
 .work-video .concentration{
-    font-size: 3em;
-    margin-left: 200px;
+    font-size: 50px
 }
 .work-video p{
-    margin-right: 120px;
-    text-align:right;
+    margin-right: 130px;
+    text-align:left;
     margin-top: 80px;
 }
 
@@ -553,8 +555,9 @@ footer .logo{
     grid-row: 1/2;
     z-index: 2;
     margin-left: -50px;
-    margin-top: 110px;
     word-spacing: 10px;
+    margin-top: 300px;
+
 }
 .work-box-2 h5:nth-of-type(2){
     width: 60%;
@@ -564,7 +567,7 @@ footer .logo{
     grid-row: 1/2;
     z-index: 2;
     margin-left: 150px;
-    margin-top: 180px;
+    margin-top: 380px;
     word-spacing: 10px;
 }
 .work-box-2 p{
@@ -572,10 +575,11 @@ footer .logo{
     grid-row: 2/3;
     opacity: 100%;
     font-family: manrope;
+    font-size: 25px;
     text-align: left;
     margin-left: 50px;
     width: 35%;
-    margin-top: -50px;
+    margin-top: -200px;
 }
 .work-box-3{
     margin-left: 50px;
@@ -603,28 +607,32 @@ footer .logo{
     font-size: 2em;
     text-decoration: none;
     padding: 20px;
-    background-color: black;
-    box-shadow: rgb(57, 107, 145) 5px 5px 0.5em;
+    background-color: rgb(255, 132, 0);
+    box-shadow: rgb(124, 177, 218) 5px 5px 0.5em;
     border-radius: 15px;
     }
     .work-box-3 a:hover{
-        background-color: #444644;
+        background-color: #333633;
         border: 3px solid rgb(5, 91, 134) ;
         text-shadow: #cacfd3 5px -5px 10px;
     }
 
 .button-box{
-    padding: 1em;
+    padding: 20px;
     margin-left: 90px;
 }
+
+
+
 
 
 .work-sect-3{
     grid-area: work-sect-3;
     width: 80%;
+
 }
 .work-sect-3 p{
-    margin-top: 120px;
+    margin-top: -200px;
     margin-right: 100px;
 }
 
@@ -665,6 +673,7 @@ footer .logo{
 .section-b-1{
     grid-area: section-b-1;
     width: 80%;
+    
 }
 
 .section-b-1 p{
@@ -681,8 +690,12 @@ text-align: right;
 .img-1{
     grid-area: img-1;
     margin-top: 200px;
-    margin-left: -70px;
 }
+.img-1 img{
+    width: 80%;
+}
+
+
 
 .box-b-1{
     display: grid;
@@ -714,7 +727,7 @@ text-align: right;
     font-size: 2.2em;
     font-family: "Cormorant Garamond";
     padding: 1em;
-    height: 50%;
+    height:80%;
     margin-top: 150px;
     margin-left: 150px;
 }
@@ -725,7 +738,8 @@ text-align: right;
    
 }
 .img-2 img{
-    margin-top: 150px;
+    width: 50%;
+    margin-top: 130px;
     margin-left: -25px;
     box-shadow: 6px 6px 15px rgb(100, 116, 138);
     border: 6px solid rgba(43, 63, 87, 0.958);
@@ -781,13 +795,13 @@ text-align: right;
     background-color: black;
     font-size: 25px;
     border-radius: 20px;
-    box-shadow: 3px 4px 10px #6d91a1;
+    box-shadow: 3px 4px 10px #d3e2e8;
    }
    .contact a:hover{
     padding: 1.2em;
-    color: rgb(109, 189, 205);
-    border: 2px solid rgba(255, 255, 255, 0.552);
-    background-color: #08273c;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #ff5d05;
    }
 
 
@@ -917,7 +931,13 @@ text-align: right;
 
   /* contact us */
 
-  
+  form{
+    background-color: #1c4c5ec2;
+    padding: 50px;
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+    box-shadow: 8px 8px 20px rgba(99, 169, 198, 0.935);
+  }
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], input[type=email], select, textarea {
     width: 100%; /* Full width */
@@ -943,7 +963,7 @@ input[type=text], input[type=email], select, textarea {
   /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
     color: #FF6F00;
-    background-color: #3a3229;
+    background-color: #07060e;
   }
   
   /* Add a background color and some padding around the form */
