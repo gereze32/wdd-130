@@ -165,7 +165,9 @@ h1{
 }
 
 
-
+iframe{
+    border: none;
+}
 
 
 .main{
